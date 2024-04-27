@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://imagizer.imageshack.com/img924/4894/eqE4eh.png" alt="Logo" class="logo">
+        <h3 class="title">Feedback for Complaint ID: <span id="complaint_id"></span></h3>
+        <div class="feedback-form">
+            <div class="section">
+                <h2>Service Engineer</h2>
+                <textarea id="engineer_review" placeholder="Write your feedback for the Service Engineer here"></textarea>
+            </div>
+            <div class="section">
+                <h2>Service Executive Coordinator</h2>
+                <textarea id="coordinator_review" placeholder="Write your feedback for the Service Executive Coordinator here"></textarea>
+            </div>
+            <button id="submit_btn" class="btn btn-primary">Submit</button>
+        </div>
+        <div id="feedback_result" class="hidden">
+            <h3>Sentiment Analysis Results:</h3>
+            <p id="engineer_sentiment"></p>
+            <p id="coordinator_sentiment"></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
