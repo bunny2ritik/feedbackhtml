@@ -16,7 +16,7 @@ body {
 .logo {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Adjust this value as needed */
+    max-width: 200px; /* Adjust this value as needed */
     height: auto;
     margin-bottom: 20px; /* Add margin to separate from the title */
 }
@@ -64,3 +64,4 @@ button {
 #feedback_result {
     margin-top: 20px;
 }
+
