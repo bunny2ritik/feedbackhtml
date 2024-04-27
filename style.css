@@ -15,7 +15,9 @@ body {
 .logo {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    max-width: 100%; /* Adjust this value as needed */
+    height: auto;
+    margin-bottom: 20px; /* Add margin to separate from the title */
 }
 
 .title {
@@ -24,7 +26,8 @@ body {
 }
 
 .feedback-form {
-    margin-top: 30px;
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 0 auto;
 }
 
 .section {
